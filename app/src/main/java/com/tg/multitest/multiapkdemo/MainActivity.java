@@ -11,7 +11,7 @@ import com.umeng.analytics.MobclickAgent;
 
 /**
  * 使用友盟统计多渠道号打包
- * 在Terminal中使用命令gradle assembleRelease 编译并打Release的包
+ * 在Terminal中使用命令gradle assembleRelease 编译并打Release的包，输入的文件在build中的outputs中
  */
 public class MainActivity extends AppCompatActivity {
 
