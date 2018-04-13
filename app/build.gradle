@@ -65,7 +65,7 @@ android {
 
 }
 
-def releaseTime() {
+def static releaseTime() {
     return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
 }
 
